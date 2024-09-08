@@ -14,7 +14,7 @@ app.get("/isprime", (req, res) => {
 
 
 app.listen(PORT, HOST, () => {
-  console.log(`Running on http://${HOST}:${PORT}`);
+  console.log(`Running server on http://${HOST}:${PORT}`);
 });
 
 function isPrime(number) {
